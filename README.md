@@ -45,10 +45,15 @@ Returns `{"status": "ok"}`. Useful for uptime checks.
 
 Interactive Swagger UI — try the API directly from your browser.
 
+## Live demo
+
+- API: https://resume-match-api-qqed.onrender.com
+- Interactive docs: https://resume-match-api-qqed.onrender.com/docs
+
 ## Example
 
 ```bash
-curl -X POST https://your-deployment.onrender.com/api/match \
+curl -X POST https://resume-match-api-qqed.onrender.com/api/match \
   -H "X-API-Key: your-key-if-set" \
   -F "resume=@resume.pdf" \
   -F "job_description=We are looking for a Senior Backend Engineer with Python and AWS experience..."
